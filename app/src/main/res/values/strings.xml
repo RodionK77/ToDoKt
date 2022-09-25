@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">ToDo</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="importance">
+        <item>Нет</item>
+        <item>Низкий</item>
+        <item>!!Выский</item>
+    </string-array>
+
+    <string-array name="importance_labels" >
+        <item ><FONT COLOR="#000000">Нет</FONT></item>
+        <item ><FONT COLOR="#000000">Низкая</FONT></item>
+        <item ><FONT COLOR="#FF0000">!! Высокая</FONT></item>
+    </string-array>
+
+</resources>

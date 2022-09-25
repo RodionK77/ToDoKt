@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <CheckBox
+        android:id="@+id/todo_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </CheckBox>
+
+    <TextView
+        android:id="@+id/todo_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Что-то"
+        android:maxLines="3"
+        android:ellipsize="end"
+        android:drawableEnd="@drawable/ic_baseline_info_24"
+        android:drawableTint="@color/grey">
+    </TextView>
+
+</LinearLayout>
